@@ -1,1 +1,16 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="sO$KIf0JV,Ec2_66-}:D" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="@@gR71(d;U(wcxa$==YI">mySprite</variable><variable type="KIND_SpriteKind" id="umbgzOQR3:1U3fh|9.^X">Player</variable><variable type="KIND_SpriteKind" id="uDlEF0S/;{Q8bW5J.4i^">Projectile</variable><variable type="KIND_SpriteKind" id="Lixs9Su2C`L81kluMM0~">Food</variable><variable type="KIND_SpriteKind" id="#R.b*B7@BK@dPc=V_x.(">Enemy</variable></variables><block type="pxt-on-start" id="sO$KIf0JV,Ec2_66-}:D" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="`1jZ7x6c^Y[AD!569pUl"><field name="VAR" id="@@gR71(d;U(wcxa$==YI">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="80l(%Ls21}=nUkHWI`~5"><value name="img"><shadow type="screen_image_picker" id="itX9L@JQk{iVZ#$9}.-~"><field name="img">img`
+e e e . . . . e e e . . . . 
+c d d c . . c d d c . . . . 
+c b d d f f d d b c . . . . 
+c 3 b d d b d b 3 c . . . . 
+f b 3 d d d d 3 b f . . . . 
+e d d d d d d d d e . . . . 
+e d f d d d d f d e . b f b 
+f d d f d d f d d f . f d f 
+f b d d b b d d 2 f . f d f 
+. f 2 2 2 2 2 2 b b f f d f 
+. f b d d d d d d b b d b f 
+. f d d d d d b d d f f f . 
+. f d f f f d f f d f . . . 
+. f f . . f f . . f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"itX9L@JQk{iVZ#$9}.-~"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="y7M]Cx~puS-+#hCq)ozs"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="ctrlgame_control_sprite" id="jN5kL(I%mOwhg)^[x~PH"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="controller">controller.player1</field><value name="sprite"><block type="variables_get" id=";gtC~C:;BSFvHzDWG(Hm"><field name="VAR" id="@@gR71(d;U(wcxa$==YI">mySprite</field></block></value><value name="vx"><shadow type="spriteSpeedPicker" id="W-K/lk.#/c.M|~+Y(`K3"><field name="speed">100</field></shadow></value><value name="vy"><shadow type="spriteSpeedPicker" id="ZDIKgB4eU-.e=4VVNS!{"><field name="speed">100</field></shadow></value></block></next></block></statement></block></xml>
